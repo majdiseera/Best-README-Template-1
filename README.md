@@ -74,6 +74,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#How Random Data is Generated">How Random Data is Generated</a></li>
   </ol>
 </details>
 
@@ -84,7 +85,17 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The main idea behind this automation is to provide a handy and easy to use tests for each member in core team to be used throught the day-to-day testing.
+
+Again, this automation is aimied to be used by individuals weather he/she was a Dev, QA or even a PM.
+
+Reasons that pushed me to enhance and customize these tests to suits any individual use:
+* Lack for quick feedback during the development face.
+* Many tests are not covered in other automation frameworks.
+* Lack of straight to the point, well designed and maintained tests that we can true and rely on.
+* The number of issues I have found during the development of these tests exceeded my expectations, especially for the issues that is not visible to the human eye.
+* Postman is a great tool to develop fast tests in no time.
+* Tests that can be used on the individual level especially for the ones who need to get fast feedback of the impact of their changes to the system.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -101,16 +112,8 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Postman](https://www.postman.com/)
+* [JavaScript](https://www.javascript.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -129,6 +132,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
+
 
 ### Installation
 
@@ -251,3 +255,24 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+
+<!-- How Random Data is Generated -->
+### How Random Data is Generated
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
